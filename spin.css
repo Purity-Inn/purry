@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+    color: black;
+}
+ul {
+    background-color: black;
+    display: flex;/* flex allow efficient alignment of items within a container*/
+    justify-content: space-evenly;
+    padding: 10px;
+}
+li a{
+    list-style-type: none;/*used to remove bullets*/
+    text-decoration: none;/*To remove the dashes*/
+}
+.homepage{
+   
+}
+.about{
+    background-color:rgb(28, 28, 158) ;
+    padding: 10px;
+}
+.spin{
+    background-color: lawngreen;
+    padding-top: 7px;
+}
+table, td{
+border: 1.5px solid #000 ;
+boe
+/*border collapse:collapse; -to make it normal*/
+}
+/*tr:nth-child(odd){background-color: #ddd=used to set a color backgrund color to the odd part of the table*/
+    .login{
+        background-color: rgb(28, 216, 216);
+        width: 100%;
+    }
+#loginFormContainer{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(28, 216, 216);
+}

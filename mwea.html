@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innkeshry</title>
+    <link rel="stylesheet" href="mwea.css"/>
+    <script>
+function welcomeAndCalculate(){alert("welcome to our website");
+var sum=20+100+1000;
+document.getElementById("sumDispaly").innerHTML="Their sum=" + sum;
+}
+    </script>
+</head>
+<body onload="welcomeAndCalculate();">
+    <h1>Calculation results</h1>
+    <p id="sumDispaly"></p>
+    <select>
+        <option value="Feedback" name="Feedback">Feedback</option>
+        <option value="report corruption" name="report corruption">report corruption</option>
+        <option value="Complaints" name="Complaints">Complaints</option>
+        <option value="Compliments" name="Compliments">Compliments</option>
+        <option value="Inquiries" name="Inquiries">Inquiries</option>
+        <option value="Information request " name="Information request">Information request</option>
+    </select>
+    <img>
+    <img src="https://kenyanwallstreet.com/wp-content/uploads/2020/01/Irrigation-Kenya-750x375.jpg"width="100%"height="60%">
+    <div class="container">
+        <div class="box">
+            <h1>Report corruption <br><span style="text-align: center;">online</span><br> share your story</h1>
+        </div><br>
+        <div id="login">
+            <h1>Report corruption</h1><br>
+            <form for="login" method="post">
+            <input type="text" id="name" name="names" placeholder="Your Name" required>
+            <input type="password" id="Email" name="Email" placeholder="Your Email"required><br>
+            <textarea rows="7" cols="50" placeholder="message"></textarea><br><br>
+            [anr_nocaptcha g_recaptcha_response]<br><br>
+            <input type="button" value="Send message" style="background-color: green; color: white;">
+            </form>
+        </div>
+    </div> 
+</body><br>
+<footer>
+    @ 2023 National Irrigation Authority
+</footer>
+</html>

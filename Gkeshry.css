@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:grey;
+    color:white;
+}
+.container{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+}
+h1{
+    color:white;
+}
+.box{
+    width: 50%;
+    display: inline-block;
+}
+.box2{
+    width: 50%;
+    display: inline-block;
+    display: flex;
+}
+hr{
+    height: 10px;
+    color: gray;
+}
+input{
+    padding: 5px;
+}
+#login{
+    color: black;
+}
+.green{
+    background-color: yellow;
+    border-color: solid green;
+    padding:10px;
+    width: 40%;
+}
+.yellow{
+    background-color: green;
+    border-color: yellow ;
+    padding:10px;
+    width: 40%;
+    
+}
+::placeholder{
+    color: red;
+}

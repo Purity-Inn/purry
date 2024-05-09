@@ -1,0 +1,3 @@
+# ignore all.htm files
+*.htm
+s

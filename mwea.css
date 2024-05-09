@@ -1,0 +1,26 @@
+*{ 
+    margin:0;
+    padding: 0;
+}
+.container{
+    display: flex;
+
+}
+.box{
+    width: 50%;
+    background-color:lightsteelblue;
+    color:rgb(50, 106, 180);
+}
+#login{
+    width: 50%;
+    color: black
+    
+}
+::placeholder{
+    color:black
+}
+footer{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}

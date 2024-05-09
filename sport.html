@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inn keshry</title>
+    <style>
+        body{background-color:grey;color:white;}
+        .container{width:100%;display: flex;align-items: flex-start;}
+        h1{color:white;}
+        .box{width: 40%;display: inline-block;}
+        .box2{width: 50%;display: inline-block;}
+        hr{height: 10px;color: gray;}
+        input{padding: 5px;}
+        #polaroid{margin-bottom: 0px;}
+    
+</style>
+</head>
+<!--<link rel="icon" href="C:\Users\1012 G2\Downloads\sportfav.jpg" type="image/x-icon">-->
+<body> 
+
+  <div style="background-color:black;color:grey;padding: 5px;padding-right: 0px;" class="container">
+    <div class="box2" style="font-size: 50px;color:white;">
+        BetKyU<br>
+        <span style="background-color:#2839d7;font-size:20px;margin-left:130px;padding:0px;">KENYA</span>
+    </div>  
+<div class="box">       
+<p align="right" style="padding-right:450px;margin-bottom: 10px;padding-bottom: 0px;">Language</p>
+<form id="login" align="right" style="padding:0px" method="post">
+<input type="text" maxlength="10" id="number" name="number" placeholder="Mobile" style="background-color:#170908;color:white" required>
+<input type="password" id="password" name="password" placeholder="password" style="background-color:#170908;color:white;" required>
+<input type="button" value="LOGIN" style="margin-right:15px;color:white;background-color:#6a8195;border-style:hidden;font-weight:800;">
+<input type="button" value="REGISTER" style="color:white;background-color:#1789e8;border-radius:5px;border-style:hidden;font-weight:800;">
+</form>
+<p align="right">
+    &#63;
+ <a href=phoneLogin() style="color:grey;"> Already using BetKyU via SMS or USSD? – Forgot your password?</a>
+</p>
+</div>
+<span style="color:orange;">by @colkimi</span>
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:10%" >
+<input type="button" value="HOME" style="border:none;background-color: yellow;">
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:10%">
+<input type="button" value="SPORTS" style="border:none;background-color: yellow;">
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:10%" >
+<input type="button" value="JACKPOTS" style="border:none;background-color: yellow;">
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:10%" >
+<input type="button" value="LIVE BET" style="border:none;background-color: yellow;">
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:10%" >
+<input type="button" value="SUPPORT" style="border:none;background-color: yellow;">
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:15%" >
+<input type="button" value="TERMS & CONDITIONS" style="border:none;background-color: yellow;">
+</div>
+<div class="box2" style="color:black;background-color: yellow;width:10%" >
+<input type="button" value="LOGIN" style="border:none;background-color: yellow;">
+</div>
+<div class="box" align="right" style="color:white;text-align: right;margin-left: 120px;width:80%">
+<input type="text" placeholder="search">
+</div>
+<img src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/ngdjbafv3twathukjbq2" style="border:none;padding: 5px;width: 100%;margin-top: 0px;height: 400px;">
+<div class="container">
+<div class="box" style="width:15%;margin-right: 20px;">
+<div id="polaroid">
+    <div id="contain">
+    <p style="font-size: 1.7rem;color:white">Our logo</p>
+</div>
+<img src="https://kyu.com/assets/img/kyu.png">
+</div>
+<div>
+    Make your selection:
+<select id="football" name="football" value="football" onchange="footChange()">
+        <option value="#" disabled selected>Boxing</option>
+        <option value="highlights" name="highlights">highlights</option>
+        <option value="Tournaments" name="Tournaments">Tournaments</option>
+        <option value="upcoming games" name="upcoming games">upcoming games</option>
+    </select>
+</div>
+</div>  
+<div class="box2" style="width:80%">
+<div class="box" style="margin-top: 0px;padding: 0px;width:100%;margin-left: 0px;margin-right: 0px;">   
+<p style="text-align:center;background-color:black;color:white;font-size: 16px;margin-top: 5px;padding:10px;margin-bottom: 0px;">FOOTBALL BETTING ODDS</p>
+<p style="text-align:right;background-color:#191d27;color:white;padding:20px;margin-top:5px;margin-bottom: 0px;">
+show odds:<input type="button" value="Under 1.20" style="background-color:grey;color:white;border-radius:5px;">
+<input type="button" value="Under 1.50" style="background-color:grey;color:white;border-radius:5px;">
+<input type="button" value="Under 1.80" style="background-color:grey;color:white;border-radius:5px;">
+</p>
+</div>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/XhP3Xh4LMA8?si=Cb_MCcFSLKQ_ABgb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
+</div>
+<div class="box" style="width:28%;margin-top: 0px;background-color:#191d27;margin-left:15px;margin-right:0px;color:white;">
+    <p style="background-color:skyblue;color:white;text-align: center;">BETSLIP</p>
+    You have not selected any bet<br><br>
+    Make your first pick to start playing<br><br>
+<br>
+    Or introduce your bet code:<br><br>
+    <input type="text" placeholder="Bet code" style="border-radius:5px;background-color:#191d27;border:2px solid white">
+    <input type="button" value="ADD" style="border-radius:5px;background-color:skyblue;">
+    <p>
+        <hr>
+<b>PAYBILL NUMBERS</b>
+    <br><br>
+Your account/reference number should be your registered number. 
+</p>
+<img src="https://how.africa/wp-content/uploads/2023/01/everse-Mpesa-Sent-to-the-Wrong-Number.png">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 955100 or 5212121<br><br>
+<img style="height:5.5rem;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEXtHCT////sAADtFh/tEx3tGCHsAA7tDxr96uv+8vL7zc7/+vvvNDrsBxTvR0z2oqT83t/1horyZmr1naDsAAr4urvxYGTxVFn71NX95OX4r7HvO0HuIir0iYzzbnLwTVL1kJP2lZjzdHj3qavze374srTuLDP72NnvNj35vb/wUVbxYWb6xsfzfoH70NHwQkitYCziAAAOEklEQVR4nO1dabuqIBAWFNCMVssWT2WLLafl//+7Cy6App3OUup9fD/cp+PS5Q2YGYaZQdMaNGjQoEGDBg0aNGjQoEFVgXTdIByGjspuy98DUUy8dsddrNeLz+UhMBxSdpP+EIg4UFvvWlMgYLZmYwj/E5LEoYONCXJwXEBadut+DUTpeGbl0QuxX1Oj7Cb+CsgJLnu7kB/H+YbLbuXPgbA2zB2dKVgLp+yG/hDI0bqPuy+B79RRdyBKhs/xY9gZ9aNIyHr6NTNJkdaNIu6cv8GPYQjLbvK3QKD/PX4M4xopRgTH3xmgMaxAL7vhz4Jom+/zY5jVRS3SW+9HBIF9qoVxg5zt0yoii10dhI3u7H7Kj83EdvVnIvEmPycIwEflxSmZ/0CGKjhXfZgahx/KmAR2xRki4/o7ggDcqj0R4TfttBxsKz0RYffXBMGwykqfuL8nCDYVZoi834nRCFU23Jzv2aL70Wwzupe8FWZI3G/Yatd+QDEDXWaFb7e6DJ2n5ai1WxrJep7oGRtvVVlZSsZPdqE1nENlBaGj9EhdVNYFDkfPEewiJ63T6SJ1v1NVjY/0p/jttHunIUx1fmWnIb08wW+ypDk9lDKEepW1S/HXg9T6ILlzLKVlZpX1fZP9VwSP8wKvNlZtvUtVRSkyireWog5cwCIRojK0DtUVNI91xdEr7ht1lF4rOw0f96G5zpMwCVRJU9lBymTpg6Xvsf2w3VD+ONa8qoOUTaZCs9veFs7AEMhQfovKSlJmfAUFBGfoi4FHP+TDyyo7hJ1hHr9W58stM9IST1+rTJANtuPd+LwOvg5BMDryhUFlre4QOspMxZ37TDyQ4iGvrsUWA8GlkPvmaEvhM2POWNp16UIOA3vjVbe7WhwIfnLLGsqxXXl3dwhEKMaUPB2TRz5FF1qVFqQ/BpQGu19hXfgQPGAPwgKrDa8EwX0Ng004EKbrWWty9IO8HiI3qVmCeo5RQj/iiC97dS96dE+O0XV1Te5HSHlDu3ccsFSFs1rI0Ts4i9SicZxRd05f3GrVLhwqBMw4pzbpqUjH0pjxqrtoegC8ThPMaHQ6FzfMekqZ+622VB+Smwg6tdrVt9ZyoLfvwmZVs5PMhS/f6tSSYI6T/6zIUhIoBGuqJ7KTEPSQlCYkEB08recQZZogux1sKuKSdgTBfT2FDOOwzRCcHmRX4bFwrp29mhLUYCbyq6cQVOyAzSM3aqWhH9IE954giKD0WPVhLS0Zjozz9EpEVxFNrOnNTmW3Cr8E0lODtKULgo4rtESrrkKUAwWqxX0VUlTHfSFjfKOuMoZDV1ygYJqIS+Qg6Ypza5khI0DkqgHYiRSl1BcXZ3XPOVQZRiFOiDgyfaY3xrXuQI17eSVD7iJE1PgUmxP28MFmaV2gtyXDNsSYbKUzY3KqrxJUYEht0etujlKympe6z8AYBcE1dteo/wCNAXOyRq3drd4qIgVlO0IImI5TZx1/h4wjsdXXnbouI4pAUTdSgPZ+tMawnv7Qx0DYm7ufbqetPbuVWD8g3eDVPf5Xeg0aNGjQoEGDBg0aNGjQoAjofyz1qMBwglv7v6r0mAF2z6ZlXgf/jUc0C5w4gWtWsOtpKDFe1S5s8WMoOxXmE1MRGYR+d8YindDyvHb6TXEAP84/0wmGNDgtVt9JS9eJ43i3z74flEXRUAMR3Ufee3QY+Mf91P5eiY/OenPtWTyMsTSGJ4Xhw7wJOZyfLw+hi7waszSGKJBxbPZDvW+0fsCwY5XOUKMy0mnzUJbWliFCyeibag8bUVuGmu5F4Vzn9uNdwvoy1BCcf3Q/5o9zfmvBEBlRxfichlBcEE3Jd6HiIvNfMUS6fiep3sgQGQ5tLz8Xi8V4buRsWjMmNJvfhAyMg447Hp8OOntFMhxCjpTaNxzsHeaHgDpEZfI2hjr23M1kGukmc9/tpHrMoNjwDm5/l36JvdOdTHkLbXO/cw3JcHpmaCmWDTFO3UnPNM3efjZQw4rexJDA9iYTvD0K5EBD7moUlcxXBhnC0E+9M8KSYQRRNAnBsRqzafoyyfY9DPE40zQOe50slRASFyVDQleZkIxAL2JoaNlU8Ok8If8WhjS/Jql9iaedUvlDMFTCZWMcMSpgqCbqJTBP5I0MSTb4PqF4M4oY4stduZMx0fIZZqKKY/TiwslvYVhYT6+FCxgqCbCixVArYEjzq2rEWYlvmodRg63jcO2625nsnmglcceQqkUkerP+YLDu8sSnXIbkU3m2pUSMRaU+38MQOZzeiTCtztbnjkzrGTm5DKHs88mJvUTYm/y3UDS+gzj4y4aYsPsOpXQgosF3zvsYarjrz7FQxFjkf+49lMtQNHqW8ldkGfJrMkmqFxCuY0SMcVSR9l0an6oKXp8n/6kVjqQHDPsp6yzPaoPiWuyLhCLiNvQXlGJ5I91MNeIRw9R6MYeh3k7e7cUrLyqkVJiV+V6GzPTkIFgwDBOYf8NQ8tnF2tUQZTRb5K0MmRENvRszohlcIQ0Gv2Uoi39sHSP6/USvTvksfxtDitzhfmpZdoikVX/AUAyHvhtD1tHk9dvexBA5i/xi679nmPu1MTpvY0hIjuX9Jwz1efYbVfBZ/h679FZ4otFvGaoZNvdYvImh3i4uJv9rhgVGfYT1mxg6qdzzv5U0VJbHyAF/+w0MDbXM88wNuEAXo/YPGfrDLLrueySNUnHMvEHC7ck/ZChHKcR34CbhGxgqtRvjA4uQ8WcMFUlTsH38eoZKavY5btYfMlQy3UpjqPzKSX3RP2SoaPyC/c83MJRFLpLdzz9l2Et9VSkMB5Ih+XuGMnu/oBD0G+ahtKv6vx2lRORzC4ZyEvQyO3OxU0sXBpX5qkLKsmr6ryUNFUulkZArshDKQn0W0UPUZaidPPCyyoOynI69jLUF/SFDOSRtkRAsHY9mIB42HLiyh9Gw1cWXXV5UelCZiGYHUkIx7PxwBazI5SN2aFgxA2miE60BxJSy73dOG/6NUdap8gu7kH47EucZOHLpZO+264s/+aldqp4TYA4v69CPpR6P0Bv2Lxf/aEWP+TTzC4Pzart+AUVjWViu2+p85WtLM3TS5wnFPu+io9rMUEVmPe6vCJ27K74mmrCMNx6eZYi81Eoz3rcoLMsfncOWLjv1mnO9Cige4+MOnmeokZO6Y5PsPdF8irPYzIFqJ7/o5DLs3u/NXMdJ/vk3GGq0o7BJ9g/1vM2Zc0fkt6vFtF91NhsJ0mczm+cxksWR5A4pyuxb3J/3R7z+NPlBfLEHTMet1HacuXOJ1H78tpAFrwphRTjY7sxwgW+e/UUbquEE6NKPEV0k248Iq+W9GYKwMe53j+fzqKvcJY7rt2Jf5aS7DjKhEMRZ9jfnfe868u9+sz8Dog6kQaBhCDHJWIg0QdKg5O9cOwsZTOdB6ODUXYNdC26deZDz/fw25QV7ofPqEF302uzsvICaBg0aNGjQoEGDBg0aNGjQoEGDBk+AJ0Ih8TF9apNOCFF8TdFeGSFpLxP/AuGaSd/588Z+FzxZi6LTYuzxJGtEtTH/KG5T2h4vPg8kuWIgnacWsYcC6YHTqX5aLDokStM2lDMi2B9l1wOFvZ4B/dCNuyGsNZHXehP7qRG8RH7v6UeUsoeH4IaDyD1/nidFsINZeMHy+VGJ+AgCQRF/lH4MObQt/QjM86hlgzNsT8H0OLry0HV+E9EzAC3/4p/tuCy7cwSnkwUmx9HZAlYn7B86tkCvu73sLLBv6/wRsfnNg5IepoW/AdA2L2ATONAZ2GDeAr4HIR0AcOLtIjswdTGmGN/24MynpzMCA9McEAjxoRedHKTPbeAjh1KnfeXJKWQMzGSS0i3Yl12BAlq2eQxHIJyBFljxbWsEj8DHYZKIHadmEc8K43AYw4nVCauV00/b5vHNrJ+H0WY38aZgy+biXoxMeC3/dGAeDBb94nyTdh99pB9h98AWGCZ77rgPpjAKcEz24bHJk230AzCTeUfX/EBnNvdaES1jDszShSljGGcm8Srs8dlwrPMmMMzHEGciINaJHZ0z7Hlxm+GeR/8y2bNJBqIeTAFkmsOO84zwCKxKPwCDMYwLmfDTEOLGGy5nSBbAkpMI9vguImMoTjRmXcwY0hYYOCQGG5U3XcOzKG4IeVU44Bna9ikSdoxhIiEihvTC/xUPHsEQc4YiYzRkiLQJMKcCNhgb/PBckwlVHoGyK70LubaYJxmCbBpGF2OGfdCSDJ0dVwKMoYiiiBh6ezBpKeABQmz8MgGDvB64la3vHzPM78NFmiGTnHOoIBSzF56nSBdJZmOpeMCQCdf0PLzQe4Z8Ht5ZLTyjakzwpHR7huMBQy5Lhf2FgkSWZhjijRKOiOKJ7AzBCDLNX7a253jAUHOuoeIPwQZerA8zDI1TlNjEgbx1FFnCT3mGuwqoCu0xQz5MteiSAc0w5OSeoUZ7wI/7iplFcQSCcwa+ZZVWL0nFI4Y8kMtc8jA8yI1Q3vYchmTJq0dgHqq3AdN4bRnWDdtUYZAWMgwNZsTPPmqt+qujDVrteG0hGV7BJ/+MtzaY+pf+0ATTZRJ/zESsXY0jrGFvGo8lfW6ek/IANztKftZJfBaw5WuRHTaUqyFnZ0WRNNiN4oSs3VzITiZrzlWYhVw4CHGpB4nE0Ix2chsTt7/qj/Xk8CPjoHRM8pnA+fbjYx0ohW3I+e5k3bKgRNaoH+Ung1JK8u6on/X0Q9yMr+sh3U+CSaT/tDJhDL1jvSr4sCJgAqn7onj1agAh64vKi3UH8lrV0PavA9L+6x7k+K8VRYMGDRo0aNCgQYMGDRpUEf8Anlzm4F4c5ZoAAAAASUVORK5CYII=">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 955100 or  BetKyU
+</div>
+</div>
+</body> 
+</html>
